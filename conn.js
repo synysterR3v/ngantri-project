@@ -1,14 +1,14 @@
 const mysql = require('mysql')
 const db = mysql.createConnection({
   host:'localhost',
-  user:'phpmyadmin',
-  password:'root',
-  database:'sabarv3',
+  user:'root',
+  password:'',
+  database:'ngantri',
   multipleStatements: true
 })
 db.connect((err)=>{
   if(err) console.log(err)
-  else console.log('berhasil ngonek db')
+  else console.log('berhasil konek db')
 })
 
 
