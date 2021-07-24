@@ -32,5 +32,5 @@ app.use('/', require(__dirname+'/route'))
 
 // server
 http.listen(3000, ()=>{
-  console.log('server njalan di lobang 3000..')
+  console.log('server jalan di port 3000..')
 })
